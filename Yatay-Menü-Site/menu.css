@@ -1,0 +1,136 @@
+*{
+	margin:0px;
+	padding:0px;
+	background-color:antiquewhite;
+	border:1px solid #FFF;
+	
+}
+#sayfa{
+	width:1000px;
+	height:600px;
+	margin:0px auto;
+	
+}
+#ust{
+	height:150px;
+	background-color:coral;
+	color:white;
+	text-align:center;
+	line-height:150px;
+	font-size:40pt;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight:bold;
+}
+#menu{
+	height:50px;
+	background-color:green;
+}
+#menu ul{
+	list-style:none;
+	
+}
+#menu li{
+	float:left;
+	position:relative;
+	width:120px;
+}
+#menu ul li ul{
+	display:none;
+}
+#menu ul li:hover ul{
+	display:block;
+}
+#menu ul li a{
+	text-decoration:none;
+	background-color:#333;
+	display:block;
+	color:white;
+	font-weight:bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align:center;
+	border-bottom:2px solid red;
+	border-left:1px solid #595959;
+	padding:5px;
+}
+#menu ul li ul li a{
+	background-color:#595959;
+	text-align:left;
+	padding:5px;
+	border-bottom:1px solid #333;
+	font-size:.8em;
+}
+#menu li a:hover{
+	background:rgb(248,140,0);
+	transition:.5s;
+}
+#menu ul li ul li a:hover{
+	padding-left:15px;
+}
+#sol{
+	float:left;
+	width:200px;
+	height:400px;
+	background-color:aqua;
+}
+
+#sol ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 200px;
+
+    background-color:#e67e22;
+
+    border: 1px solid #555;
+}
+
+#sol li a {
+    display: block;
+
+    color: #000;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+}
+
+#sol li {
+    text-align: center;
+
+    border-bottom: 1px solid #555;
+}
+
+#sol li:last-child {
+    border-bottom: none;
+}
+
+#sol li a.active {
+    background-color:#3498db;
+
+    color: white;
+}
+
+#sol li a:hover:not(.active) {
+    background-color:#d35400;
+
+    color: white;
+}
+
+#sag{
+	
+	background-color:dodgerblue;
+	height:400px;
+	
+}
+#alt{
+	clear:both;
+	height:50px;
+	background-color:crimson;
+	text-align:center;
+	line-height:50px;
+	font-size:14pt;
+	color:black;
+}
